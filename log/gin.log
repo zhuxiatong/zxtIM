@@ -1,0 +1,26 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (3): 
+	- 
+	- index.html
+	- index.tpl
+
+[GIN-debug] GET    /user/list                --> zxtIM/controllers/user.List (3 handlers)
+[GIN-debug] GET    /user/online              --> zxtIM/controllers/user.Online (3 handlers)
+[GIN-debug] POST   /user/sendMessage         --> zxtIM/controllers/user.SendMessage (3 handlers)
+[GIN-debug] POST   /user/sendMessageAll      --> zxtIM/controllers/user.SendMessageAll (3 handlers)
+[GIN-debug] GET    /system/state             --> zxtIM/controllers/systems.Status (3 handlers)
+[GIN-debug] GET    /home/index               --> zxtIM/controllers/home.Index (3 handlers)
+[GIN] 2021/04/18 - 13:55:40 | 200 |      5.3299ms |       127.0.0.1 | GET      "/home/index"
+[GIN] 2021/04/18 - 13:55:40 | 200 |      1.9842ms |       127.0.0.1 | GET      "/home/index"
+[GIN] 2021/04/18 - 13:55:40 | 404 |            0s |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2021/04/18 - 13:55:41 | 200 |     61.2862ms |       127.0.0.1 | GET      "/user/list?appId=101"
+[GIN] 2021/04/18 - 13:55:41 | 200 |     58.6713ms |       127.0.0.1 | GET      "/user/list?appId=101"
+[GIN] 2021/04/18 - 13:55:50 | 200 |      3.9679ms |       127.0.0.1 | GET      "/home/index"
+[GIN] 2021/04/18 - 13:55:50 | 200 |      3.4759ms |       127.0.0.1 | GET      "/home/index"
+[GIN] 2021/04/18 - 13:55:51 | 200 |     46.8371ms |       127.0.0.1 | GET      "/user/list?appId=101"
+[GIN] 2021/04/18 - 13:55:51 | 200 |     51.4758ms |       127.0.0.1 | GET      "/user/list?appId=101"
